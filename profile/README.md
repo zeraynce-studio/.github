@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/zerayncebanner-zgif.com-crop.gif" alt="Zeraynce banner" width="100%" />
+  <img src="../assets/banner.png" alt="Zeraynce banner" width="100%" />
 </p>
 
 # Zeraynce
