@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/banner2.png" alt="Zeraynce banner" width="100%" />
+  <img src="./assets/banner2.png" alt="Zeraynce banner" width="100%" />
 </p>
 
 <h1 align="center">Zeraynce</h1>
@@ -36,6 +36,29 @@ We build practical systems that teams can trust, operate, and improve over time.
 
 ---
 
+## Operating Model
+
+```text
+Zeraynce
+   │
+   ├── Product Strategy
+   │      └── Define the real workflow, business rules, and long-term direction.
+   │
+   ├── Design System
+   │      └── Build calm, clear, and consistent interfaces.
+   │
+   ├── Engineering
+   │      └── Develop maintainable, secure, and scalable systems.
+   │
+   ├── Operations
+   │      └── Support monitoring, documentation, releases, and internal control.
+   │
+   └── Products
+          └── Atelier — Creative management platform.
+```
+
+---
+
 ## Current Product
 
 <table>
@@ -60,36 +83,14 @@ We build practical systems that teams can trust, operate, and improve over time.
 
 ## Atelier Helps Teams
 
-<table>
-  <tr>
-    <th align="left">Area</th>
-    <th align="left">Purpose</th>
-  </tr>
-  <tr>
-    <td><strong>Public Profiles</strong></td>
-    <td>Build trusted creative profiles that clients can discover.</td>
-  </tr>
-  <tr>
-    <td><strong>Private Inquiries</strong></td>
-    <td>Receive structured booking requests without public clutter.</td>
-  </tr>
-  <tr>
-    <td><strong>Bookings</strong></td>
-    <td>Manage confirmed creative work, schedules, and project status.</td>
-  </tr>
-  <tr>
-    <td><strong>Media Workspace</strong></td>
-    <td>Organize project folders, review files, and delivery assets.</td>
-  </tr>
-  <tr>
-    <td><strong>Client Workspace</strong></td>
-    <td>Give clients a clear place to view their requests and projects.</td>
-  </tr>
-  <tr>
-    <td><strong>Admin Operations</strong></td>
-    <td>Support future monitoring, role management, and product control workflows.</td>
-  </tr>
-</table>
+| Area | Purpose |
+|---|---|
+| Public Profiles | Build trusted creative profiles that clients can discover. |
+| Private Inquiries | Receive structured booking requests without public clutter. |
+| Bookings | Manage confirmed creative work, schedules, and project status. |
+| Media Workspace | Organize project folders, review files, and delivery assets. |
+| Client Workspace | Give clients a clear place to view their requests and projects. |
+| Admin Operations | Support future monitoring, role management, and product control workflows. |
 
 ---
 
@@ -136,110 +137,41 @@ We build practical systems that teams can trust, operate, and improve over time.
 Discover → Design → Build → Test → Improve
 ```
 
-<table>
-  <tr>
-    <th align="left">Step</th>
-    <th align="left">Meaning</th>
-  </tr>
-  <tr>
-    <td><strong>Discover</strong></td>
-    <td>Understand the real workflow, users, pain points, and business rules.</td>
-  </tr>
-  <tr>
-    <td><strong>Design</strong></td>
-    <td>Plan clean interfaces, data flow, permissions, and long-term structure.</td>
-  </tr>
-  <tr>
-    <td><strong>Build</strong></td>
-    <td>Develop practical features with maintainable architecture and clear boundaries.</td>
-  </tr>
-  <tr>
-    <td><strong>Test</strong></td>
-    <td>Validate behavior, access control, UI quality, build output, and edge cases.</td>
-  </tr>
-  <tr>
-    <td><strong>Improve</strong></td>
-    <td>Refine the product through QA, feedback, documentation, and iteration.</td>
-  </tr>
-</table>
+| Step | Meaning |
+|---|---|
+| Discover | Understand the real workflow, users, pain points, and business rules. |
+| Design | Plan clean interfaces, data flow, permissions, and long-term structure. |
+| Build | Develop practical features with maintainable architecture and clear boundaries. |
+| Test | Validate behavior, access control, UI quality, build output, and edge cases. |
+| Improve | Refine the product through QA, feedback, documentation, and iteration. |
 
 ---
 
 ## Engineering Principles
 
-<table>
-  <tr>
-    <td><strong>01</strong></td>
-    <td><strong>Clarity before complexity</strong></td>
-    <td>Readable systems are easier to operate, review, and improve.</td>
-  </tr>
-  <tr>
-    <td><strong>02</strong></td>
-    <td><strong>Systems before shortcuts</strong></td>
-    <td>Every feature should fit the larger product architecture.</td>
-  </tr>
-  <tr>
-    <td><strong>03</strong></td>
-    <td><strong>Design with restraint</strong></td>
-    <td>Interfaces should feel calm, focused, and intentional.</td>
-  </tr>
-  <tr>
-    <td><strong>04</strong></td>
-    <td><strong>Build for maintainability</strong></td>
-    <td>Future developers should understand the code without guessing.</td>
-  </tr>
-  <tr>
-    <td><strong>05</strong></td>
-    <td><strong>Ship with discipline</strong></td>
-    <td>Testing, review, documentation, and clean commits matter.</td>
-  </tr>
-  <tr>
-    <td><strong>06</strong></td>
-    <td><strong>Trust is part of the product</strong></td>
-    <td>Security, privacy, and access control are product requirements.</td>
-  </tr>
-  <tr>
-    <td><strong>07</strong></td>
-    <td><strong>Documentation is part of the work</strong></td>
-    <td>A task is not complete if the related documentation is outdated.</td>
-  </tr>
-  <tr>
-    <td><strong>08</strong></td>
-    <td><strong>Do not fake maturity</strong></td>
-    <td>Build honestly, improve consistently, and avoid unnecessary complexity.</td>
-  </tr>
-</table>
+| No. | Principle | Standard |
+|---|---|---|
+| 01 | Clarity before complexity | Readable systems are easier to operate, review, and improve. |
+| 02 | Systems before shortcuts | Every feature should fit the larger product architecture. |
+| 03 | Design with restraint | Interfaces should feel calm, focused, and intentional. |
+| 04 | Build for maintainability | Future developers should understand the code without guessing. |
+| 05 | Ship with discipline | Testing, review, documentation, and clean commits matter. |
+| 06 | Trust is part of the product | Security, privacy, and access control are product requirements. |
+| 07 | Documentation is part of the work | A task is not complete if the related documentation is outdated. |
+| 08 | Do not fake maturity | Build honestly, improve consistently, and avoid unnecessary complexity. |
 
 ---
 
 ## Team
 
-<table>
-  <tr>
-    <th align="left">Name</th>
-    <th align="left">Role</th>
-  </tr>
-  <tr>
-    <td><strong>Arjay Escabas</strong></td>
-    <td>Founder</td>
-  </tr>
-  <tr>
-    <td>Aliazer Casan Solaiman</td>
-    <td>Team Member</td>
-  </tr>
-  <tr>
-    <td>Prince Aironn Corasa</td>
-    <td>Team Member</td>
-  </tr>
-  <tr>
-    <td>Jhon Ghlen Dealdo</td>
-    <td>Team Member</td>
-  </tr>
-  <tr>
-    <td>Cris John Labiaga</td>
-    <td>Team Member</td>
-  </tr>
-</table>
+| Name | Role |
+|---|---|
+| Arjay Escabas | Founder |
+| Aliazer Casan Solaiman | Team Member |
+| Prince Aironn Corasa | Team Member |
+| Jhon Ghlen Dealdo | Team Member |
+| Cris John Labiaga | Team Member |
+| Japhet Kundiman | Team Member |
 
 ---
 
@@ -259,38 +191,16 @@ release/*   → release preparation
 hotfix/*    → urgent production fixes
 ```
 
-### Workflow Rules
+## Workflow Rules
 
-<table>
-  <tr>
-    <th align="left">Rule</th>
-    <th align="left">Standard</th>
-  </tr>
-  <tr>
-    <td>No direct push to main</td>
-    <td>All changes must go through Pull Requests.</td>
-  </tr>
-  <tr>
-    <td>Start from develop</td>
-    <td>Always update local code before creating a task branch.</td>
-  </tr>
-  <tr>
-    <td>Use correct branch type</td>
-    <td>Use feat, fix, refactor, docs, chore, release, or hotfix.</td>
-  </tr>
-  <tr>
-    <td>Stage specific files only</td>
-    <td>Do not stage unrelated files or random formatting changes.</td>
-  </tr>
-  <tr>
-    <td>Test before pushing</td>
-    <td>Run local checks before creating a Pull Request.</td>
-  </tr>
-  <tr>
-    <td>Update documentation</td>
-    <td>Docs must change when setup, workflow, API, database, infrastructure, or behavior changes.</td>
-  </tr>
-</table>
+| Rule | Standard |
+|---|---|
+| No direct push to `main` | All changes must go through Pull Requests. |
+| Start from `develop` | Always update local code before creating a task branch. |
+| Use correct branch type | Use `feat`, `fix`, `refactor`, `docs`, `chore`, `release`, or `hotfix`. |
+| Stage specific files only | Do not stage unrelated files or random formatting changes. |
+| Test before pushing | Run local checks before creating a Pull Request. |
+| Update documentation | Docs must change when setup, workflow, API, database, infrastructure, or behavior changes. |
 
 ---
 
@@ -298,28 +208,13 @@ hotfix/*    → urgent production fixes
 
 Each Zeraynce repository should include:
 
-<table>
-  <tr>
-    <td>Project documentation</td>
-    <td>Clear explanation of the project purpose and structure.</td>
-  </tr>
-  <tr>
-    <td>Environment examples</td>
-    <td>Safe <code>.env.example</code> files without secrets.</td>
-  </tr>
-  <tr>
-    <td>Setup guide</td>
-    <td>Local development and run instructions.</td>
-  </tr>
-  <tr>
-    <td>Testing guide</td>
-    <td>Build, lint, and QA instructions when available.</td>
-  </tr>
-  <tr>
-    <td>Secret handling</td>
-    <td>No credentials, tokens, private keys, or sensitive server data in public files.</td>
-  </tr>
-</table>
+| Standard | Requirement |
+|---|---|
+| Project documentation | Clear explanation of the project purpose and structure. |
+| Environment examples | Safe `.env.example` files without secrets. |
+| Setup guide | Local development and run instructions. |
+| Testing guide | Build, lint, and QA instructions when available. |
+| Secret handling | No credentials, tokens, private keys, or sensitive server data in public files. |
 
 ---
 
@@ -332,14 +227,14 @@ Zeraynce is currently focused on developing and stabilizing Atelier as its first
 
 Primary priorities:
 
-- product polish
-- staging readiness
-- clean GitFlow workflow
-- role-based access control
-- dashboard and monitoring architecture
-- documentation discipline
-- secure deployment preparation
-- long-term maintainability
+- Product polish
+- Staging readiness
+- Clean GitFlow workflow
+- Role-based access control
+- Dashboard and monitoring architecture
+- Documentation discipline
+- Secure deployment preparation
+- Long-term maintainability
 
 </details>
 
@@ -351,13 +246,13 @@ Primary priorities:
 Public repositories should never expose:
 
 - API keys
-- database URLs
-- service-role credentials
-- server IPs used for private infrastructure
-- private deployment notes
-- internal-only architecture diagrams
-- production secrets
-- customer or user data
+- Database URLs
+- Service-role credentials
+- Server IPs used for private infrastructure
+- Private deployment notes
+- Internal-only architecture diagrams
+- Production secrets
+- Customer or user data
 
 </details>
 
