@@ -1,6 +1,7 @@
 <p align="center">
   <img src="../assets/zerayncebanner-zgif.com-crop.gif" alt="Zeraynce banner" width="100%" />
 </p>
+
 # Zeraynce
 
 A software engine studio building practical digital systems for focused teams.
