@@ -169,7 +169,7 @@ Discover → Design → Build → Test → Improve
 | Arjay Escabas | Founder |
 | Aliazer Casan Solaiman | Team Member |
 | Prince Aironn Corasa | Team Member |
-| Jhon Ghlen Dealdo | Team Member |
+| John Ghlen Dealdo | Team Member |
 | Cris John Labiaga | Team Member |
 | Japhet Kundiman | Team Member |
 
